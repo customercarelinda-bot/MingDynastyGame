@@ -64,7 +64,7 @@
 
 1. 克隆本项目到本地：
    ```bash
-   git clone https://github.com/你的用户名/MingDynastyGame.git
+   git clone https://github.com/customercarelinda-bot/MingDynastyGame.git
    cd MingDynastyGame
    ```
 
