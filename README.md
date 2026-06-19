@@ -1,3 +1,4 @@
+<img width="796" height="630" alt="大明王朝游戏演示" src="https://github.com/user-attachments/assets/187eae0e-1bc3-4269-ac76-9f60d66f505d" />
 # 大明王朝：开局一个碗 (Ming Dynasty RPG: Starting with a Bowl)
 
 大明王朝：开局一个碗 是一款基于 Pygame 开发的 8-bit NES 复古风格像素角色扮演游戏（RPG）。玩家将扮演少年朱元璋（朱重八），从一个食不果腹、手持破碗的行童开始，在乱世中结识徐达、常遇春等开国功臣，反抗元朝暴政，最终攻克元大都，推翻元朝统治，建立大明王朝。
@@ -82,7 +83,8 @@
 
 ## 游戏画面预览
 
-*(您可以在此处添加游戏截图，例如主角行走、砍树对比、与元军交战等画面)*
+<img width="796" height="630" alt="大明王朝游戏演示" src="https://github.com/user-attachments/assets/0f67a493-57dd-40e6-93bc-42b931699198" />
+
 
 ---
 
