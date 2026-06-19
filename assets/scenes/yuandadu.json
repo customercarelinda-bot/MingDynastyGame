@@ -1,0 +1,102 @@
+{
+  "name": "元大都 (Yuan Dadu Capital)",
+  "ground": [
+    "hgggggggggggggvgggggfggggggggggggggfggfs",
+    "gggsgggfggggfgvggsggffhshggggfgghgfggggg",
+    "ggfgfhggggggggvggggghggsgggggggggggggfgg",
+    "gggfgfgsgsggggvgggggggsgfgggggggghgfgggg",
+    "ggggggggggggggvggfggggggfggggggfggghggsh",
+    "gsggggggfgggggvgggggggfggfgghgghgggggggg",
+    "ggggfgggggggggvgghggggggggggggggfgsggggg",
+    "gggshghggfggggvgggfggsfghgggggggggfhgggg",
+    "gggggggggggsggvghsgggggsgsfgggggggggghgg",
+    "gggghgggggfghgvgggggggsggggggggggfgggggg",
+    "ggggggggggggfgvggggggggggggggghggfgggggg",
+    "gsgggfhgggfgggvgggggggggfggggggggggggfgg",
+    "gggfggggggggfgvgggfsgfggggffgggggggggggs",
+    "sggggfggggggggvgggggggggggfggggggfgggfgg",
+    "ggggggggggggggvggggggggggggggggggggggggg",
+    "rrrrrrrrrrrrrrvrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "ggggggggggggggvggggggggggggggggggggggggg",
+    "ggfggfgggggfggvgggggggfgggggggggggsggggg",
+    "ggghhshggggfggvgggghggfggggfgggfggghgggg",
+    "sggggggggshgggvggggfgggggggggggggggggggg",
+    "gggggsggggggggvggggfgfgggggffghggggfgggg",
+    "gssgggggggfgggvgggggggggggggggggfggggghg",
+    "fgsgggggggggggvgggssggsgggggggggfggghgsg",
+    "gfgsgfggggggggvggggfggggggghgggfgggsgggg",
+    "gfgfggggghggggvgggggggggfggfggggggggggfg",
+    "gggggggggfggggvggggfggggggghgggggggfgggg",
+    "ghgggggsggsgggvggggggggggfgsgggggggggggg",
+    "gggggghgggggggvggggsgggggfghgggggggghggg",
+    "ggggggggggggggvgggsggggggggggfghgggggggf",
+    "ggsfggggggggggvgggshgghsgggggffggggggggf"
+  ],
+  "obstacle": [
+    "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+    "RJ.........R......R..F............WR...R",
+    "R.F.........................W..RJ......R",
+    "R.....W...U.......W.F............J.W...R",
+    "R..RF.............J..........F......R..R",
+    "R....W...F.............R.......J.......R",
+    "R.....R.....................S..........R",
+    "R.....U....................F....S.R....R",
+    "R........RSF....................D......R",
+    "R....JJ...........U....................R",
+    "R.S...S.........W...J.F..F.............R",
+    "RW.....U....U....F....J.....F..S.F.....R",
+    "R.......S...J........R.....F......S....R",
+    ".....R...S.......F.........W...........R",
+    ".......................................R",
+    ".......................................R",
+    ".......................................R",
+    "..W....S..............W..J...........R.R",
+    "R......FD..................J.W......J..R",
+    "R.......................W..W...........R",
+    "R...........J..........J..............SR",
+    "R..U.F....F............................R",
+    "R................S.......W...RS.S.F..J.R",
+    "RJS..R.F....F...UJ.....F....S.........WR",
+    "R.......................SU......W..R...R",
+    "RFW......W............J..............J.R",
+    "R.......F...R..........................R",
+    "R.........J...........R................R",
+    "R...S.....F.......U..U.............R...R",
+    "RRRRRRRRRRRR.....RRRRRRRRRRRRRRRRRRRRRRR"
+  ],
+  "connections": {
+    "south": {
+      "map_id": "suzhou",
+      "start_x": 14,
+      "start_y": 1
+    },
+    "west": {
+      "map_id": "sichuan",
+      "start_x": 38,
+      "start_y": 15
+    }
+  },
+  "npcs": [
+    {
+      "id": "xuda_general",
+      "name": "大将军徐达",
+      "sprite": "friend",
+      "x": 20,
+      "y": 15,
+      "dialogue": [
+        "上位！臣已率北伐大军攻克元大都，顺帝北逃漠北！",
+        "百年胡运，一朝而终！中原光复，请上位即皇帝位，昭告天下！"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 20,
+      "y": 5,
+      "opened": false,
+      "item": "传国玉玺",
+      "dialogue": "你打开了元廷大殿的龙椅宝箱，获得了【传国玉玺】！你终于登基称帝，建立大明！"
+    }
+  ],
+  "min_level": 14
+}

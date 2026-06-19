@@ -1,0 +1,97 @@
+{
+  "name": "云南 (Yunnan Border)",
+  "ground": [
+    "gggfsgggggghggrggggggfgggggfhhgggghggggg",
+    "sgggggggfhggggrgggsggggggggggggfgggggggg",
+    "fgggggggggghfgrgfgggggfgghsgggggghfggfgg",
+    "ggggggggggfssgrgggggggggfgfggfggggggghgg",
+    "gggggggfghhgggrgggggggggfgggggsggfggfggg",
+    "ggfgggggggfgggrgggghgggfgggggggffhgggggg",
+    "ggggggggggfghgrgggggggggggfssggfggfggggg",
+    "ffggggfgggggggrgggggfgggggggfghgffgggfgg",
+    "gggfggfgggffggrggsgggggfggggggsggsgggggf",
+    "fgggggggggggggrggghgggghggggfsgghggggggg",
+    "sgggssggggggggrgggfggghghgggffggggfggggg",
+    "ggggggggggggggrgggggggggfgghgggggggggggg",
+    "gggggssgggggggrgsgggghfgfghggggghhgggggg",
+    "ggghgfggggffggrgsggggsggggggggghgggggggg",
+    "ggggghgfgggsggrgggggggssgggggggggggggggg",
+    "sgggggggghfgggrgggggggggffgggghgggggggfg",
+    "gggggggggghgggrggggggggggggggggggggggsgg",
+    "ggfggffgggggggrggghggggggshgggggsggggggg",
+    "ggggggggghggggrghgggggggsgggggfggggggggg",
+    "gggggghgggggggrggfgggghggggggggggggfggfg",
+    "ggggggggggggggrgfsgggggggsggghggggggsgff",
+    "gfhggggsggffhgrggggshggggggggggggghggggg",
+    "gggggggfgggsggrggggfgggggggggggggfgggggg",
+    "gggsgggggfggsgrgggfghffggggggggggggggggg",
+    "ggggggggggggggrgsggfggggggsggggggfgffgsg",
+    "gghggsfgfhsgggrgggsfggggggsssfgggggggggg",
+    "ggggggggggggggrggggfggfggggggsgggggggggg",
+    "ggggfggfgghgggrgfggggsgggsssggggggggsggg",
+    "gffggggggghfggrggggggggggggggggggggggggg",
+    "ggghggsfggggggrgfggsfgggggggfhsfgggggghg"
+  ],
+  "obstacle": [
+    "vvvvvvvvvvvv.....vvvvvvvvvvvvvvvvvvvvvvv",
+    "v..........................M...........v",
+    "v...........Y.....M...................Mv",
+    "v...............................M...M..v",
+    "v......M...................M.M..M......v",
+    "v....M.............................M...v",
+    "v.....................M...............Mv",
+    "v.Y....Y...........Y....M..........Y...v",
+    "v...........M...YMY.Y...........Y......v",
+    "v......................Y...............v",
+    "vM...Y.................................v",
+    "v.M...M................................v",
+    "v.................................M....v",
+    "v..................Y.Y.................v",
+    "v...........................M.....YY...v",
+    "v...........M..........................v",
+    "v......................................v",
+    "v...............MM........Y.Y..M.......v",
+    "v....Y.MY...................M..........v",
+    "v.Y....M...............M.M.....M.......v",
+    "v.......M...........M.M................v",
+    "v....Y...........Y.........M...........v",
+    "v........................M.....M...M...v",
+    "vM.....................................v",
+    "v...........M......Y...M...............v",
+    "v.....................Y................v",
+    "v................M.....................v",
+    "v...........M.......Y..................v",
+    "v...............M.MM...................v",
+    "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+  ],
+  "connections": {
+    "north": {
+      "map_id": "sichuan",
+      "start_x": 14,
+      "start_y": 28
+    }
+  },
+  "npcs": [
+    {
+      "id": "muying",
+      "name": "大将沐英",
+      "sprite": "chang",
+      "x": 20,
+      "y": 15,
+      "dialogue": [
+        "皇上！臣沐英已率军荡平梁王余孽，收复云南全境！",
+        "臣愿世代镇守云南，保我大明西南边疆永固，万世太平！"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 10,
+      "y": 10,
+      "opened": false,
+      "item": "普洱茶砖",
+      "dialogue": "你获得了【普洱茶砖】！"
+    }
+  ],
+  "min_level": 16
+}

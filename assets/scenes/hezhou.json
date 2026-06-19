@@ -1,0 +1,102 @@
+{
+  "name": "和州 (Hezhou Port)",
+  "ground": [
+    "gggggggggggghgbggfgggfgggfgggghgggggfggh",
+    "ggggggggffggggbggggggggggggsgggggggggggg",
+    "ggggggggfgggggbggggsfggggggggggggggggggs",
+    "gghhgggfggfsggbggggggffgggggggggggfggggg",
+    "ggggggggggggggbggggggfggfgggggggghhggggg",
+    "ghgggggggggghgbgggggggggsggsggggfgfggggs",
+    "ggggggggggggggbgggggggsggfgggggggghgfggg",
+    "ggggggfgggggggbggggggggsgggggggggggggggg",
+    "gggggggghgggggbggggggfggggggfggggggggsgg",
+    "sgggggggfgggggbggghgggghggggggggsggggsgg",
+    "gfhggggggshghgbgggfggggghggggfgggggggsgs",
+    "gfhgfgggggggggbggggggggggggghsgggggggggg",
+    "gggggggffgggggbgggggggggggggfgggggsggssg",
+    "ghghfggggfgghgbggggghgsghgfggfsggggfggfg",
+    "ggggggggggggggbggggggggggggggggggggggggg",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "ggggggggggggggbggggggggggggggggggggggggg",
+    "ggggggshggggggbgggggggggggggsggggggggggg",
+    "ggggggggggggggbgggfghsggggfsgggggggggggg",
+    "gggfggggggggsgbggggfgggghggggggghggfgggg",
+    "ggggggggggggggbgggghggggghgggggggggggghg",
+    "gggggsggggfgggbgggghggggggghgsggfgssggfg",
+    "ggggggggggggggbggggggggghgggggghgggggffg",
+    "ggfhgggsggggggbgggggssgggfgggggggghfggsg",
+    "ggggggshgggsggbggggghggggggggghhgggsggfg",
+    "sfgfghggggggggbgfgggggggggfgggggfgfggfgg",
+    "ggfgggggggggfgbgsgggggghgggsgggggfggffgf",
+    "ggggghgggfggggbggghgfgggggggggggggsggggs",
+    "gggggggfggggggbggggggfgggggsgfgggggggghg",
+    "gggsgghgfgggggbgggggsggfgfggggggggfggggg"
+  ],
+  "obstacle": [
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "r......F.T.................X.......F...r",
+    "r...............X..T..T.............X..r",
+    "r....................T....T............r",
+    "r.........FT...........................r",
+    "r....v....X.............U.............Fr",
+    "r..................U.........T.F.......r",
+    "r..........F........U..................r",
+    "rX..UUTF........................T.U....r",
+    "r..........T.............F.T.F.........r",
+    "r................T......T..F...........r",
+    "rF........................F............r",
+    "r..F........U...........U..............r",
+    "...U.F............X......X..F......U..Tr",
+    ".......................................r",
+    ".......................................r",
+    ".......................................r",
+    "......T.X.......U.....T...X............r",
+    "r.......T.................X....F.......r",
+    "r........................FT.........U..r",
+    "r....................U.................r",
+    "r...U.......................U......T...r",
+    "r........................v.T...........r",
+    "r..U...............................X...r",
+    "r..........................TTF.........r",
+    "rU.................................F...r",
+    "r................FX.............U......r",
+    "r........T.............F..T............r",
+    "r.......F........F.....T...............r",
+    "rrrrrrrrrrrr.....rrrrrrrrrrrrrrrrrrrrrrr"
+  ],
+  "connections": {
+    "west": {
+      "map_id": "lvpaizhai",
+      "start_x": 38,
+      "start_y": 15
+    },
+    "south": {
+      "map_id": "taiping",
+      "start_x": 14,
+      "start_y": 1
+    }
+  },
+  "npcs": [
+    {
+      "id": "boatman",
+      "name": "渡口船夫",
+      "sprite": "farmer",
+      "x": 10,
+      "y": 18,
+      "dialogue": [
+        "朱将军，大军已在和州集结，数万将士随时可以渡江！",
+        "长江天险虽固，但也挡不住我军的熊熊烈火！"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 5,
+      "y": 5,
+      "opened": false,
+      "item": "皮甲",
+      "dialogue": "你在渡口货箱里发现了【皮甲】！"
+    }
+  ],
+  "min_level": 6
+}

@@ -1,0 +1,102 @@
+{
+  "name": "太平府 (Taiping Prefecture)",
+  "ground": [
+    "gggfghggghfgsgvgggggggggggggfgghggghgggg",
+    "gfgggggsggggggvgggggggggghggggggggggggsg",
+    "hggggfhgggggggvgggggggggggggfggfssggggfg",
+    "ssgggggggggfggvgggsgffghgggggggggfgggggg",
+    "gfgghsghggggggvgfhggfggggggggsggggsggggg",
+    "hggfghgghgggggvgggggghgffgfghggggfggghgg",
+    "ggggggggsggssgvgfsggfgfggggggggggsgggggg",
+    "ggghggggggffggvggggggfggfggggggggggggggg",
+    "gggggggggggssgvghgggggsggggfgggggggggggg",
+    "gggggghgggghggvgggggggsghggggggggggggggg",
+    "ggghggggfgggggvgghgshfgggggggghsgggggggg",
+    "hfgggggggfsfhgvggsgggggghggggggggfgggggg",
+    "ggggfgggggggggvgggfggggggggggggggggggggg",
+    "ggghggfgggfgsgvgfggggggggggggggggggggfgf",
+    "ggggggggggggggvggggggggggggggggggggggggg",
+    "rrrrrrrrrrrrrrvrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "ggggggggggggggvggggggggggggggggggggggggg",
+    "gsggghggfgggggvghgggggggggggggggfggggggg",
+    "gggsggggggggggvggggggggggghghggggggsggfg",
+    "hggggggggggfggvgggggshgggggggggggggggggg",
+    "ggfggsfhggggggvgsggggggfggggfgggggfffggg",
+    "ggghggsgggggsgvgghgggggsgggggggsgfgsgggg",
+    "hgggggggfgggggvghggggghgsgggfgghggsgggsg",
+    "ggggggggggfgfgvgfgfggggghgggggfgggggsggg",
+    "gggggggggffghgvgggggsgggfsfggggsggghgffg",
+    "ggghgfggggggggvggghhggggfggggggggggggffg",
+    "gggfggggggfgggvgggghsghfggfsggggsggggsgf",
+    "gghggsgggfggggvggfggggshghhgfgggfhggggfg",
+    "ssfggggggggfggvgggggggggggggggggggfggggg",
+    "ggggsfgghfggsgvgggsgggggfggghggggggfgghg"
+  ],
+  "obstacle": [
+    "RRRRRRRRRRRR.....RRRRRRRRRRRRRRRRRRRRRRR",
+    "R.........J.J.........JW..J.F.F....J...R",
+    "R....W...............................J.R",
+    "R...........J...R...J.RW...JU....F.J..FR",
+    "R.......J..........R.......W....JWJ....R",
+    "R....W.SFS.J....S......................R",
+    "R.....R.R...........F..............J.S.R",
+    "R.................S..F.S...............R",
+    "R..R.F...W..J......SS.......U...DS....SR",
+    "R.......J........................R.R...R",
+    "R..R.....U..R..........F...R.......R.R.R",
+    "R.........................WJ....W......R",
+    "R...S...FF......W................R.R...R",
+    "R...............................U....U..",
+    "R.......................................",
+    "R.......................................",
+    "R.......................................",
+    "R.....S.F...F......W......W.............",
+    "R.....W.D................W...........J.R",
+    "R.S.......................W.S..........R",
+    "RW.....S............U.U........W.......R",
+    "R...............R.W....................R",
+    "R....W...........W.......WF...U........R",
+    "R....W.R.............FUR......W........R",
+    "R..J............R....F.......U........JR",
+    "R..W............F...U...............W.JR",
+    "R.S.........J....F...W.................R",
+    "R.....SR..........R.......S............R",
+    "R..........F........J......SW.......RWRR",
+    "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR"
+  ],
+  "connections": {
+    "north": {
+      "map_id": "hezhou",
+      "start_x": 14,
+      "start_y": 28
+    },
+    "east": {
+      "map_id": "yingtian",
+      "start_x": 1,
+      "start_y": 15
+    }
+  },
+  "npcs": [
+    {
+      "id": "taiping_scholar",
+      "name": "太平名士",
+      "sprite": "merchant",
+      "x": 20,
+      "y": 12,
+      "dialogue": [
+        "朱帅进城后，秋毫无犯，开仓放粮，真乃仁义之师！",
+        "太平百姓无不箪食壶浆，以迎王师！"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 30,
+      "y": 8,
+      "opened": false,
+      "item": "精钢短刀",
+      "dialogue": "你打开了官衙前的宝箱，获得了【精钢短刀】！"
+    }
+  ],
+  "min_level": 7
+}

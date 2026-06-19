@@ -1,0 +1,102 @@
+{
+  "name": "四川 (Sichuan Basin)",
+  "ground": [
+    "hgggggghgfggggrghgggfggggfggfggggggggggg",
+    "ghhggggsgfggggrggggghggggggghggggggfhggg",
+    "gggsggggggggggrgggggggggggggghhfggggsggg",
+    "ffgggggghgfgsgrgssgggghsghggggggggggghgg",
+    "ggsggggggfghggrgggggghggsgfgggggggfggggg",
+    "gfgggsggggggfgrgghgggggsgsfgfggggggggghg",
+    "gggghgggggsgfgrgggsggggggggggfggsggsgggg",
+    "gggggfggggghggrgfggggggggsfggggggggggggf",
+    "ggggsggggfggfgrgfgggggfgggggggffggfhgggg",
+    "ggggggggggggggrgggffggggfgggggggghgggggg",
+    "ggggggggggggggrgggggggfggggsghggggfggggg",
+    "ggghggggfgggggrgggggggggggggggggggggggfg",
+    "gfgggfggggsgggrgggggggggsggggfgggggggggg",
+    "ggggggggggfgggrgggggggggggggggfgsggfgggg",
+    "gggfggghggggggrggggggggggghggggggsggshfg",
+    "ssssssssssssssrsssssssssssssssssssssssss",
+    "gfghgghggfgfggrgggggggfggggsgfggggggfggg",
+    "ggggggggggggggrgggggsggggggghhgggfssgggg",
+    "ggggggggsgggggrgggfgggghshgggggggsgggggg",
+    "gsgggggggggghgrggggggggggghggggghggggggs",
+    "sgsgggggggggfgrgsgggggfgfggfgggggggsgfgg",
+    "gggggsggggggggrgggggggggggshggggggggghgg",
+    "gfhgggggggggggrggghggggffgggggggggggggfg",
+    "gggggghgggggggrgsggggggffggssgfggghgggsg",
+    "fhghhfsghgggggrggggghsggggggfgggggfhgggg",
+    "ggggggggggghggrggggggggfgggggggggghgfsgg",
+    "fggfgghgggggggrgggfgffggggggggggghfggggg",
+    "ghgsggggsgggfgrgfgsgggggggggggsgggfggggg",
+    "ggggggsghgggggrgggggfghghgggghgggggggggg",
+    "ggggggggggggggrggggggggghgfggffghggggggg"
+  ],
+  "obstacle": [
+    "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv",
+    "v..........................m...........v",
+    "v..P......P.........P....Pm.....m.....Pv",
+    "v......................K........K......v",
+    "v......................m........P......v",
+    "v....P.....K....PP......P...K.....K.m..v",
+    "v.....PK..............P.P..K..........Kv",
+    "v.m.......P................m....P......v",
+    "v...............................K......v",
+    "v....P.....mK..............P..K........v",
+    "v....K.........................P.......v",
+    "v.P....................K..P............v",
+    "v...................P........m.........v",
+    "v..m.m..............P.K..............P..",
+    "v........mPK......P..............P......",
+    "v........m........KP....P...............",
+    "v.......K........PP.P........P...K...K..",
+    "v..P.........................K.....m....",
+    "vP......K............P......P....P...m.v",
+    "v...........K........P.P.............K.v",
+    "v......K.................m......K....PKv",
+    "v..K.............................P.....v",
+    "vP..............K........P.............v",
+    "v....K...............K........K.....K..v",
+    "v.........P............K......P.....K..v",
+    "v......P........P..K.........m....P..m.v",
+    "v.......KP..K..........P....P..........v",
+    "v...K.......m................m.m...P...v",
+    "v....................m..m........K..P..v",
+    "vvvvvvvvvvvv.....vvvvvvvvvvvvvvvvvvvvvvv"
+  ],
+  "connections": {
+    "east": {
+      "map_id": "yuandadu",
+      "start_x": 1,
+      "start_y": 15
+    },
+    "south": {
+      "map_id": "yunnan",
+      "start_x": 14,
+      "start_y": 1
+    }
+  },
+  "npcs": [
+    {
+      "id": "sichuan_elder",
+      "name": "蜀中父老",
+      "sprite": "elder",
+      "x": 18,
+      "y": 12,
+      "dialogue": [
+        "蜀主明玉珍将军已逝，其子年幼。大明王师入川，蜀中百姓愿归顺大明！",
+        "蜀道虽难，也难挡大明一统乾坤之志！"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 30,
+      "y": 20,
+      "opened": false,
+      "item": "蜀锦",
+      "dialogue": "你获得了【蜀锦】！"
+    }
+  ],
+  "min_level": 15
+}

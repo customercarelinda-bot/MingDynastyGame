@@ -1,0 +1,26 @@
+{
+  "wolf": {
+    "name": "“∞¿«",
+    "atk": 15,
+    "def": 5,
+    "hp": 80,
+    "sprite": "wolf",
+    "exp_reward": 150
+  },
+  "tiger": {
+    "name": "√Õª¢",
+    "atk": 35,
+    "def": 15,
+    "hp": 200,
+    "sprite": "tiger",
+    "exp_reward": 400
+  },
+  "lion": {
+    "name": "øÒ ®",
+    "atk": 60,
+    "def": 30,
+    "hp": 350,
+    "sprite": "lion",
+    "exp_reward": 800
+  }
+}

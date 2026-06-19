@@ -1,0 +1,102 @@
+{
+  "name": "金华 (Jinhua)",
+  "ground": [
+    "gggggggfghgffgvgsgggggggggggggsgggsggggg",
+    "gsgsggggggggggvggggggfghggghggfgggsgsggf",
+    "ggggggsgfgggggvgggggfgfgggggggghhsgggggg",
+    "ggggggggghggggvgfhggffgggggggggggggggsgg",
+    "ggghgggggsggggvgggggggghggggggggggggfggg",
+    "ggggggggghggggvgggggggggggghghggfsgggggg",
+    "ghgggggfgfgfggvgggfggggggggggfggsfggsggg",
+    "ggggggggggggfgvggggghgggggsggggghggfgggg",
+    "ggggggggggfgggvggfgggggghfgggggggsgggggg",
+    "gggsggggggggggvggfgfggshggggggghfggggggg",
+    "ggsgggfgggggggvggggggggggsgfgggfgggggggg",
+    "fgggggggggggggvggggggggggsggggggggfgfggg",
+    "ggggggggggggfgvggggggggfggggggggsghggggg",
+    "gggsghggggggggvgggggggghgggggfggggggfggg",
+    "ggggggggggggggvggggggggggggggggggggggggg",
+    "rrrrrrrrrrrrrrvrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "ggggggggggggggvggggggggggggggggggggggggg",
+    "gfggfghgggggggvggfggggsgfggggggggggggggg",
+    "gggggggshsggggvgggfgggggggggggggggggghgg",
+    "sghgggggghggggvgggggggggggggghhgsggggggh",
+    "ggggfgggggggggvggfggggggggggggggggggggsg",
+    "fgggggggggggggvgghggggggggggggggfffggggh",
+    "ghghfgfgggggggvggfgsggggghggggfgggggsggg",
+    "gggghgggggggggvggggggfggggggggggggggfggg",
+    "gggfggggggggggvggsgggggggggggggggfggggfg",
+    "gggggsggggggggvgggggfgfgfggggghgggfgggsg",
+    "ggsgggggggsgggvggggggggggggggggggggggghg",
+    "gggggfgghghgggvgghggggggssgggggggggggggg",
+    "gggggfgggghfggvggsgggggfghggggggggfgfggg",
+    "fhggsgggggghfgvgfgggggfhgfgggfsggggggggg"
+  ],
+  "obstacle": [
+    "mmmmmmmmmmmm.....mmmmmmmmmmmmmmmmmmmmmmm",
+    "m....F...m..........mv..m...v..........m",
+    "m....mi.i.................i..........m.m",
+    "m.......m...i........mi................m",
+    "m......i..v.......mJ..m............i...m",
+    "m....iv...m.................m..........m",
+    "mi......F.................i.........i..m",
+    "m.....m.........................v......m",
+    "m.....J...m.......v.m....vF.....F......m",
+    "m..v.vm..........m............m......m.m",
+    "m....vF..m..v....F.........im.....i....m",
+    "mm.....mi...m..................v.m.....m",
+    "m......v........mi.............F.......m",
+    ".......J...F................v.i.i.Jv...m",
+    ".......................................m",
+    ".......................................m",
+    ".......................................m",
+    "....F.....i......i...m........m........m",
+    "m.......F..i......m....m........Fm...F.m",
+    "m.....mi..Jm.............v...J.m.......m",
+    "m..m.m.....F..............m..m.......i.m",
+    "m..........m......................i....m",
+    "m...i.................i..i...........v.m",
+    "m..i.................F..FmF.....v......m",
+    "m..........m......Fi..m.......m........m",
+    "mF..F...........v.....i....m...v.......m",
+    "m...i....F.......i.v..mF.m..m..v.......m",
+    "mi........F.........m..................m",
+    "mF...Fm.........................i.F...im",
+    "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm"
+  ],
+  "connections": {
+    "north": {
+      "map_id": "zhedong",
+      "start_x": 14,
+      "start_y": 28
+    },
+    "west": {
+      "map_id": "poyanghu",
+      "start_x": 38,
+      "start_y": 15
+    }
+  },
+  "npcs": [
+    {
+      "id": "jinhua_farmer",
+      "name": "金华农夫",
+      "sprite": "farmer",
+      "x": 15,
+      "y": 18,
+      "dialogue": [
+        "朱大帅！这是俺们金华特产的火腿，香气扑鼻，送给将士们做军粮！",
+        "祝大帅早日扫平群雄，建立太平盛世！"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 28,
+      "y": 8,
+      "opened": false,
+      "item": "金华火腿",
+      "dialogue": "你获得了【金华火腿】！这可是绝佳的补给品。"
+    }
+  ],
+  "min_level": 11
+}

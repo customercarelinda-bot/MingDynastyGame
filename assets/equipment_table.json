@@ -1,0 +1,75 @@
+{
+  "武器": [
+    {"name": "乞讨用的破碗", "quality": "白", "atk": 2, "def": 0},
+    {"name": "生锈的铁剑", "quality": "白", "atk": 5, "def": 0},
+    {"name": "破旧的木棍", "quality": "白", "atk": 12, "def": 0},
+    {"name": "精钢宝剑", "quality": "绿", "atk": 25, "def": 0},
+    {"name": "雁翎刀", "quality": "蓝", "atk": 55, "def": 0},
+    {"name": "玄铁重剑", "quality": "紫", "atk": 110, "def": 0},
+    {"name": "倚天剑", "quality": "橙", "atk": 220, "def": 0},
+    {"name": "屠龙宝刀", "quality": "橙", "atk": 240, "def": 0}
+  ],
+  "护腕": [
+    {"name": "粗布护腕", "quality": "白", "atk": 1, "def": 0},
+    {"name": "行军皮护腕", "quality": "绿", "atk": 4, "def": 0},
+    {"name": "镔铁护腕", "quality": "蓝", "atk": 10, "def": 0},
+    {"name": "金丝护腕", "quality": "紫", "atk": 25, "def": 0},
+    {"name": "大明锦衣护腕", "quality": "橙", "atk": 60, "def": 0}
+  ],
+  "项链": [
+    {"name": "铜锁片", "quality": "白", "atk": 1, "def": 0},
+    {"name": "桃木护身符", "quality": "绿", "atk": 5, "def": 0},
+    {"name": "翡翠平安扣", "quality": "蓝", "atk": 12, "def": 0},
+    {"name": "紫金八卦盘", "quality": "紫", "atk": 30, "def": 0},
+    {"name": "九龙吐珠坠", "quality": "橙", "atk": 75, "def": 0}
+  ],
+  "护符": [
+    {"name": "纸符", "quality": "白", "atk": 1, "def": 0},
+    {"name": "铜钱符", "quality": "绿", "atk": 4, "def": 0},
+    {"name": "五雷轰顶符", "quality": "蓝", "atk": 11, "def": 0},
+    {"name": "天师乾坤符", "quality": "紫", "atk": 28, "def": 0},
+    {"name": "真武降魔祖帝符", "quality": "橙", "atk": 70, "def": 0}
+  ],
+  "戒指": [
+    {"name": "铁指环", "quality": "白", "atk": 1, "def": 0},
+    {"name": "青铜戒指", "quality": "绿", "atk": 3, "def": 0},
+    {"name": "玛瑙银戒", "quality": "蓝", "atk": 9, "def": 0},
+    {"name": "金镶玉指环", "quality": "紫", "atk": 24, "def": 0},
+    {"name": "大明蟠龙玉戒", "quality": "橙", "atk": 58, "def": 0}
+  ],
+  "帽子": [
+    {"name": "破头巾", "quality": "白", "atk": 0, "def": 1},
+    {"name": "竹笠", "quality": "绿", "atk": 0, "def": 3},
+    {"name": "皮熟皮软盔", "quality": "蓝", "atk": 0, "def": 8},
+    {"name": "精钢飞盔", "quality": "紫", "atk": 0, "def": 20},
+    {"name": "锦衣卫飞鱼帽", "quality": "橙", "atk": 0, "def": 48}
+  ],
+  "护手": [
+    {"name": "麻布绑手", "quality": "白", "atk": 0, "def": 1},
+    {"name": "牛皮护手", "quality": "绿", "atk": 0, "def": 4},
+    {"name": "铜丝手套", "quality": "蓝", "atk": 0, "def": 9},
+    {"name": "玄铁护手", "quality": "紫", "atk": 0, "def": 22},
+    {"name": "神武玄金手", "quality": "橙", "atk": 0, "def": 55}
+  ],
+  "护肩": [
+    {"name": "烂棉护肩", "quality": "白", "atk": 0, "def": 1},
+    {"name": "硬皮肩甲", "quality": "绿", "atk": 0, "def": 4},
+    {"name": "鱼鳞护肩", "quality": "蓝", "atk": 0, "def": 10},
+    {"name": "虎头吞天肩", "quality": "紫", "atk": 0, "def": 25},
+    {"name": "紫金盘龙护肩", "quality": "橙", "atk": 0, "def": 62}
+  ],
+  "腰带": [
+    {"name": "麻绳腰系", "quality": "白", "atk": 0, "def": 1},
+    {"name": "牛皮带", "quality": "绿", "atk": 0, "def": 3},
+    {"name": "狻猊皮腰带", "quality": "蓝", "atk": 0, "def": 7},
+    {"name": "镶金盘玉带", "quality": "紫", "atk": 0, "def": 18},
+    {"name": "九五至尊明黄带", "quality": "橙", "atk": 0, "def": 45}
+  ],
+  "靴子": [
+    {"name": "草鞋", "quality": "白", "atk": 0, "def": 1},
+    {"name": "布靴", "quality": "绿", "atk": 0, "def": 3},
+    {"name": "精致的草鞋", "quality": "蓝", "atk": 0, "def": 10},
+    {"name": "精钢快步靴", "quality": "紫", "atk": 0, "def": 24},
+    {"name": "纵云游龙靴", "quality": "橙", "atk": 0, "def": 60}
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "name": "苏州 (Suzhou Water Town)",
+  "ground": [
+    "fgfgggggsgggggbgggggghggfggggggggggggggg",
+    "ghghggghggfgggbgggfgggfgsggghgssghhggggg",
+    "ggggggggggggggbggsgssgfgggggggggsggggggg",
+    "ghgsggggggggfgbgfggggfhgffgfhggghhssgggs",
+    "ggggggggggggggbghgggggfgggsggggggsggfggs",
+    "gggfggggggfgggbgfghgggggggghfgfggfgggggf",
+    "gfggfgggggsgfgbgggggggggggfggggggggggggg",
+    "gggggsggggggggbggggggggggggffggggfgggggg",
+    "ggggggggggggggbgggggfghgsggggsggssgggsgg",
+    "gsghggggggggggbggggggfgggggggggggggggggg",
+    "gsgfggggggggggbggggggggggfghfgfgsggggggg",
+    "ggggggggsggghgbghgghfgggggggggfggggggggg",
+    "ggsggggggggfhgbggggggggsfggggggggggfgsgs",
+    "sggggggggfggggbggsgggggggfhgfggggggggggh",
+    "sgfgsghgfgggggbggggshgggggggggggsgggsghs",
+    "ggggggggggfgggbgggggggggggggggffgggfgggg",
+    "fsggggggggsgggbgggghhgggggggsggggggggggg",
+    "ghggggggggggggbggggggggggggggggsggsggggg",
+    "gfggggggggggggbghggghggfsgggsggggggggggg",
+    "ggfggsgggsggggbgsgggggggghgfsggggggggggg",
+    "fshhggsgggggggbgggsgfggffghggggggfgggggg",
+    "sgsghgfggggghgbgggggsgggggsgggggggggssgh",
+    "ggggfhggfgggggbgghggggfggffgggggggsggggg",
+    "ggfgghggsgggggbghgggghggggggggggggfghggg",
+    "ggggggggggggggbgfggggggggggggfhggggggggf",
+    "ggfgggggggggggbggggggggggsgggghggggggggf",
+    "sfggggggggggggbgggggggggsgggfggggggggggg",
+    "gggffggggggfggbggfgggggggggggggggggggggf",
+    "hgggggggggggggbgghgggggfgggggggggggggggg",
+    "ghgggfggggsgggbgggfgggggggghhgghgghgfggg"
+  ],
+  "obstacle": [
+    "rrrrrrrrrrrr.....rrrrrrrrrrrrrrrrrrrrrrr",
+    "r.J................................F...r",
+    "r.......R.........F.......J...J.W......r",
+    "r.......F...................R........R.r",
+    "r....W....W.............J..JW.R........r",
+    "r..W.v....W...........J.....RW.........r",
+    "r.F.......J.................F..........r",
+    "r.................F........R...........r",
+    "r....R......W.......W...........R......r",
+    "r....J...........J.J........W..........r",
+    "rW....................WFR..............r",
+    "r..........R..........W.W..J.......W...r",
+    "r..R...J..R........F.....R......JW.....r",
+    "r.WW................................J..r",
+    "r......................................r",
+    "r.....J..........................R.R...r",
+    "rF........................R...W........r",
+    "r.........................JF..........Rr",
+    "rR......R.........R......J..........R.Wr",
+    "rJW......W......R............R.W.......r",
+    "r..........................FRF...J....Jr",
+    "rF...W.............F............J......r",
+    "r......R..J.....W.......Wv..W.F..W.....r",
+    "r..................J.J......R.....R..F.r",
+    "r....W...................WR.....J......r",
+    "r........W...........................J.r",
+    "r..J...................J.R...........J.r",
+    "r..........................R..R..J...R.r",
+    "rF.....F........F...........R..........r",
+    "rrrrrrrrrrrr.....rrrrrrrrrrrrrrrrrrrrrrr"
+  ],
+  "connections": {
+    "south": {
+      "map_id": "poyanghu",
+      "start_x": 14,
+      "start_y": 1
+    },
+    "north": {
+      "map_id": "yuandadu",
+      "start_x": 14,
+      "start_y": 28
+    }
+  },
+  "npcs": [
+    {
+      "id": "suzhou_citizen",
+      "name": "苏州百姓",
+      "sprite": "merchant",
+      "x": 22,
+      "y": 14,
+      "dialogue": [
+        "诚王张士诚待我们苏州百姓极好，可惜他终究偏安一隅，无大志。",
+        "如今大明王师进城，只盼莫要惊扰了这姑苏城的繁华。"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 8,
+      "y": 8,
+      "opened": false,
+      "item": "苏绣锦缎",
+      "dialogue": "你获得了【苏绣锦缎】！"
+    }
+  ],
+  "min_level": 13
+}

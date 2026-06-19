@@ -1,0 +1,102 @@
+{
+  "name": "河南 (Henan Plains)",
+  "ground": [
+    "hghhhhhhhhghhhrhhshhhhhhhshghhhhsshsghhh",
+    "ghhhhhhhshhhhhrhhhhshhhhhhhghhhhhhhhhhhh",
+    "hhhhhhhhhhhhhhrhhhhhhhhhshshhhshsghhhhsh",
+    "hhhghhhhhhhshhrhhhhhshhhhhhhhhhshhhhhhhh",
+    "hhhshshhhhhhhhrhhhhhhhhhhhhhshhshhhhghhh",
+    "hhhhhhhhhhhhhhrhhhhhhhhhhhghhhhhhhhhhhhh",
+    "hhhhshghhhhghhrhhhsshhhhhhhhhhhhhghshhhh",
+    "hhhhhhhghhhshhrhhhhhshhhhhhhhhhhshhhhhhh",
+    "hhhhghhhhhghhhrhhhhshhhhhhhhhhhshhggshhg",
+    "hhhhhhhhhhhhhhrhhshhhhhhhhhhhhhhhhhhhhhh",
+    "hshhhhhhhhghhhrhhhhhhhhghgghhhhhhshhhhhs",
+    "hhhshshshhhhhhrhshhhhhhhhhshhhhhhhhghhhh",
+    "hhhhhshhhhhhhhrhhsghhhhhhhhhhhhhhhhgshhs",
+    "ghhshhhhhhhhhhrhhhshhshhhhshhhhhhhshhhhh",
+    "hhhhshhhhhhhhhrhhhhhhhhhhhhhhshhghhghhhh",
+    "ssssssssssssssrsssssssssssssssssssssssss",
+    "hshhhhhhhshhhhrhhsghhhhhhhhhhghhsghhhhhh",
+    "hhshghhhhhhhhhrhhhhhhhhhhhshhhhhhhhhsshh",
+    "hhhhhhshhhhhhhrhhhhhhhhhhhghhhhhhhhhhhsh",
+    "hhsshhshhhhshhrhhhshhhhhshghhhhhhhhhhhhh",
+    "hhhhhhhshhhhhhrhhhhhhhhhghhhhhhhgghhhhhh",
+    "hhhhshhhhhhhhhrhhhhhhhhhhghhhhhhhhhhhhhh",
+    "ghhhhhhhhhhhhhrhshhhhhhhhhhhhhhhhhhhhhhh",
+    "hhhhhhhhghhhhhrhhshhgshhhhhhhhshhhsghhhh",
+    "hhhhhshhhshhhhrhhshhhhhhshhhhhhhhhhshhhh",
+    "sghghhhhhhsshhrhhhhhshhhhhhhhhhhhhhhhhhh",
+    "hhhhhhhhhhhhhhrhhhshhhhhhhhhhhhshhhhhhhh",
+    "hhshshshhhghhhrhshhhsshhhhhhhhhshhhhsshh",
+    "hhhhhhhhhhhhghrhhhhhhhhhhhhshhhhhhshhhhh",
+    "hhhshhhhhshhhhrhhhhhhhhhhhhshsshhhhhhhhh"
+  ],
+  "obstacle": [
+    "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv",
+    "v...................K..................v",
+    "v....Y............................K....v",
+    "v......................................v",
+    "v....K..Y........................K.....v",
+    "v....K....Y................Y...........v",
+    "v...................Y..................v",
+    "v....................K.Y...............v",
+    "v..........Y....................Y......v",
+    "v..K.Y..................K........Y.....v",
+    "v..K......Y............................v",
+    "v......................................v",
+    "v....................Y....Y.....K......v",
+    "vY..K........................Y.......K..",
+    "vK.K..K.Y.Y.............K...............",
+    "v.....K..................Y..............",
+    "v...Y..KKY........................Y..K..",
+    "v....K............K.....................",
+    "v.......Y......................K.......v",
+    "v.....K...Y......Y.....................v",
+    "v....Y...................K.............v",
+    "v....Y...............Y.................v",
+    "v...K....YK..............K.K..Y........v",
+    "v......................................v",
+    "v.YYK.....K.................K.....Y....v",
+    "v......Y...............K....K....K.....v",
+    "v......................................v",
+    "v....Y.....Y..........K................v",
+    "vK.................................K...v",
+    "vvvvvvvvvvvv.....vvvvvvvvvvvvvvvvvvvvvvv"
+  ],
+  "connections": {
+    "south": {
+      "map_id": "huaixi",
+      "start_x": 14,
+      "start_y": 1
+    },
+    "east": {
+      "map_id": "miaoshan",
+      "start_x": 1,
+      "start_y": 15
+    }
+  },
+  "npcs": [
+    {
+      "id": "henan_refugee",
+      "name": "河南流民",
+      "sprite": "merchant",
+      "x": 22,
+      "y": 18,
+      "dialogue": [
+        "北国兵荒马乱，红巾军起义了！到处都在打仗！",
+        "小师父，看你拿着个破碗，还是快些往南边走吧！"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 30,
+      "y": 10,
+      "opened": false,
+      "item": "破旧的布鞋",
+      "dialogue": "你在一块古老石碑旁捡到了【破旧的布鞋】。"
+    }
+  ],
+  "min_level": 3
+}

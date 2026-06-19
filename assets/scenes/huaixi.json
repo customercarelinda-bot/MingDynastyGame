@@ -1,0 +1,102 @@
+{
+  "name": "淮西 (Huaixi Plains)",
+  "ground": [
+    "gggggghgggggggrgggggfggghhgggfgggggggggg",
+    "fhgsgggfggfgggrggggggfggghgggsgggggggggf",
+    "ggggghgfsghgggrggggsggsggggfsgggfgggghgh",
+    "gggggggfggggggrggsgggggggggggfgggggggfff",
+    "hgggsgfgggggggrgsgggghggggggggggggggsggg",
+    "ggfggfggggggggrgggghgggggggfgshggggggggg",
+    "fgggggggsgggggrgsggggsgggfggggggggggsgsg",
+    "gggggsfgggggggrgggfggghgfggggggsghfggggg",
+    "gggfgghgggggggrgggfsgggggggggsfhgggggggg",
+    "fgfggssgggghggrggggfgggggggggsgggggggggs",
+    "gghghgshgfhsfgrghgsgfgfggsggggggfggggggg",
+    "gghggggghgggggrgggggggggfggggggggggggggg",
+    "ggggggggghgfggrgfgggggfhggsgggsggggggggf",
+    "ggggghgsggggggrggggggggggggggggggggggffs",
+    "gsggggggggsgggrgggggggggggggghgggfgffhgg",
+    "hsgshhhhhhhhhhrhhhshhhhhhghghshhhhhhhhhh",
+    "gfgggssgggggggrggggggggggggggggggggggggg",
+    "gggggggghgggggrggggggggggggggggggfgggggg",
+    "ggggfgggfgggggrggggfggggsgsggggggggggggg",
+    "gggfggggfgggggrggggggggffgggghgggggggsgg",
+    "ggfggggggfggggrggggggfssggggggggghggfggg",
+    "gggghggggggsggrggggsgggggfgggggfgggggggg",
+    "ggggggggggggfgrgggggfgggggggsgggghgggggg",
+    "gggggggggsfgggrgsggggggfsggggfgggfsggggf",
+    "gghgfgggfffgfgrgggssgggggfsgsggggggggggg",
+    "ggggggggggggggrgggsfggggghggggggfggggggg",
+    "gggggggfggggggrgggggggggggggggggggggggfg",
+    "ggggggggfgggggrgggffgggggggggggggggfgfgg",
+    "gfgfgfgggghgggrggggggggggggsggggfggggggh",
+    "gggfgggggsggggrgggggggggfgggggsgggggghgg"
+  ],
+  "obstacle": [
+    "vvvvvvvvvvvv.....vvvvvvvvvvvvvvvvvvvvvvv",
+    "v......T...............................v",
+    "v.v.............F......K..............Fv",
+    "v................F.....................v",
+    "v........K......F.Kv.................v.v",
+    "v....K.............K................T..v",
+    "v...................T.............T....v",
+    "vv..................v...............F..v",
+    "v..........T....................F......v",
+    "v.....K.....................v....K.....v",
+    "v.K.......................K............v",
+    "v...K...................v....T..K......v",
+    "vv..................F...v.K............v",
+    "...........TK......................T...v",
+    "........v.................F...K........v",
+    ".................................v.....v",
+    "...........T......K..v.................v",
+    "..K......F.........................F...v",
+    "v.v.....F.K...................v......v.v",
+    "v.....F...v............K.........T.....v",
+    "v...................T.v..F.............v",
+    "v......K....................Kv.........v",
+    "v.................F..K...K.............v",
+    "v....F.............v...T...............v",
+    "v...K.......v...........v...K.F........v",
+    "v..........K.............T.F...FK......v",
+    "v.....F..............................K.v",
+    "v.....T...........................F....v",
+    "v..........................K...........v",
+    "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+  ],
+  "connections": {
+    "west": {
+      "map_id": "huangjuesi",
+      "start_x": 38,
+      "start_y": 15
+    },
+    "north": {
+      "map_id": "henan",
+      "start_x": 14,
+      "start_y": 28
+    }
+  },
+  "npcs": [
+    {
+      "id": "huaixi_peasant",
+      "name": "淮西百姓",
+      "sprite": "farmer",
+      "x": 18,
+      "y": 12,
+      "dialogue": [
+        "淮西大旱，颗粒无收，官府还要强征暴敛！",
+        "听说不少乡亲都去投奔红巾军了，这日子真是不给活路啊！"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 8,
+      "y": 8,
+      "opened": false,
+      "item": "霉变的小麦",
+      "dialogue": "你在荒废的农舍里找到了【霉变的小麦】。虽然发霉，但乱世中也是口粮。"
+    }
+  ],
+  "min_level": 2
+}

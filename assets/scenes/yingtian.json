@@ -1,0 +1,102 @@
+{
+  "name": "应天府 (Yingtian Capital)",
+  "ground": [
+    "fhggggfgfhggggvgggsgggggsggggfgfgggsgggg",
+    "fggggsfggggfggvggggfggggsgggghgggsghggfg",
+    "gfggggggggggggvggggggsgsfgggfgfgggggsfhg",
+    "gghsgfggggggggvgggsgsgggggggfgggfggggggg",
+    "gggsggggggggggvgggggggfgggfggsggggggggfg",
+    "gfgfgghgggggggvggggggggggsgggggsgfgshggg",
+    "gsfgggfgggggsgvgfggfgggggggggggggggggggg",
+    "gfgggsgghghgggvggggfhggsggggggfgggsggggg",
+    "fgggggggggggsgvghgggfgggggggfsfgsghggggg",
+    "hgggggggggggggvgggggggggggggggggsggggfgg",
+    "gggggghggggfggvgggggggghgggggggsgggfgggh",
+    "gggggsfgggggggvgggggggggghhggggggggggggg",
+    "ggggggggggggggvgggggggggggggggghgfsggggg",
+    "ghhgghghggggggvgggsgggghghggggggggghgfgf",
+    "ggggggggggggggvggggggggggggggggggggggggg",
+    "rrrrrrrrrrrrrrvrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "ggggggggggggggvggggggggggggggggggggggggg",
+    "ggggggggggghggvgggggggggggssfgggsggggghg",
+    "gghggggggggfggvgggggggggggghgfggggggggff",
+    "sggggggfghggggvgfgggggggsgggggggfggggffg",
+    "fgfgsggggghgggvgsgghgggggghggggggggfgggg",
+    "ggggggggggggggvgsggggggggggggggfgggggggs",
+    "gggggsggggggggvgggggfgggggghsggggggsgggs",
+    "ggggghggggggggvggggggghggggggggsggggggfg",
+    "gggggggggfggggvggggggggggggggggggggghggg",
+    "gggggggfgggfsgvgggggghggggghggggghgfgggg",
+    "ggggggggggghggvgfffggggggfhggggggggggfgh",
+    "ggggggggggggggvggffhgggggghggggggggggghg",
+    "gggggfgggfggggvgggggggggfggggggsfggfffgg",
+    "sfgggggggsggggvggghsggfggggghgggffgggggg"
+  ],
+  "obstacle": [
+    "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+    "RR.....R.........U...W......J.W........R",
+    "R....R...................S........J....R",
+    "R........J..R.............W............R",
+    "R...................................R..R",
+    "R....WR.........U...F.....W............R",
+    "R........W.......U........S.SJ..F......R",
+    "R................................W....UR",
+    "R.................S.U.S.........D......R",
+    "R...J...W..........S...S......J.....U..R",
+    "R.S.......................S..........RUR",
+    "R..F.R.............FU..R.S.............R",
+    "R.......F.......W..U...J.............W.R",
+    "...S.S..............F..............F...R",
+    ".......................................R",
+    ".......................................R",
+    ".......................................R",
+    "..................SRJS.....S.W.........R",
+    "R.S.....D.........R...............J.R.JR",
+    "R..........F..........R................R",
+    "R....S.....................J..R........R",
+    "R....W..............J..........W...R...R",
+    "R.JJ.....................W.R.W....J.WS.R",
+    "R.J...S.........R..U...............W.WSR",
+    "R....................S.........S...JRJ.R",
+    "RU......R..............................R",
+    "RR..R................S..F...F......J..RR",
+    "R......R.......................W.R....RR",
+    "R.RS....W...J......J.......RF.....U....R",
+    "RRRRRRRRRRRR.....RRRRRRRRRRRRRRRRRRRRRRR"
+  ],
+  "connections": {
+    "west": {
+      "map_id": "taiping",
+      "start_x": 38,
+      "start_y": 15
+    },
+    "south": {
+      "map_id": "huizhou",
+      "start_x": 14,
+      "start_y": 1
+    }
+  },
+  "npcs": [
+    {
+      "id": "liubowen",
+      "name": "刘伯温",
+      "sprite": "monk",
+      "x": 15,
+      "y": 10,
+      "dialogue": [
+        "主公，应天乃帝王之基。当‘高筑墙，广积粮，缓称王’。",
+        "北御元军，西防陈友谅，东拒张士诚，方可立于不败之地。"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 25,
+      "y": 22,
+      "opened": false,
+      "item": "大明军旗",
+      "dialogue": "你获得了【大明军旗】！猎猎军旗，誓扫元廷！"
+    }
+  ],
+  "min_level": 8
+}

@@ -1,0 +1,102 @@
+{
+  "name": "皇觉寺 (Huangjue Temple)",
+  "ground": [
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg",
+    "gggggggggggggggggggggggggggggggggggggggg"
+  ],
+  "obstacle": [
+    "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT",
+    "T......................................T",
+    "T....PPPPPPPPP............MMMMMMMMM....T",
+    "T....P.......P............M.......M....T",
+    "T....P..RRR..P............M..RRR..M....T",
+    "T....P..WWDW.P...B........M..WWDW.P....T",
+    "T....P.......P............M.......P....T",
+    "T....PP.PPPPPP............MM.MMMMMM....T",
+    "T.......F....................F.........T",
+    "T.......F....................F.........T",
+    "T.......F......RRRRRRRR......F.........T",
+    "T....U..F......WWWWWWWW......F....U....T",
+    "T.......F......WWDWWWWW......F.........T",
+    "T.......F......W.....WW......F.........T",
+    "T.......F......WWWWWWWW......F.........T",
+    "........................................",
+    "........................................",
+    "T.......F......FFFFFFFF......F.........T",
+    "T.......F....................F.........T",
+    "T....J..F....................F....J....T",
+    "T.......F....................F.........T",
+    "T.......FFFFFFFFF....FFFFFFFFF.........T",
+    "T......................................T",
+    "T..........mmiiiivvvvmmmmiiiivvvv......T",
+    "T..........mmiiiivvvvmmmmiiiivvvv......T",
+    "T..........mmiiiivvvvmmmmiiiivvvv......T",
+    "T......................................T",
+    "T......................................T",
+    "T......................................T",
+    "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"
+  ],
+  "connections": {
+    "west": {
+      "map_id": "north",
+      "start_x": 38,
+      "start_y": 15
+    },
+    "east": {
+      "map_id": "huaixi",
+      "start_x": 1,
+      "start_y": 15
+    }
+  },
+  "npcs": [
+    {
+      "id": "abbot",
+      "name": "主持大师",
+      "sprite": "monk",
+      "x": 20,
+      "y": 12,
+      "dialogue": [
+        "阿弥陀佛，重八。元兵作乱，寺庙也难保全。",
+        "你且带上这口破碗，下山化缘去吧。记住，心中有佛，处处皆是修行。"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 12,
+      "y": 5,
+      "opened": false,
+      "item": "香烛",
+      "dialogue": "你打开了寺庙偏殿的宝箱，获得了【香烛】！"
+    }
+  ],
+  "min_level": 1
+}

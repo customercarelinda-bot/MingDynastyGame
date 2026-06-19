@@ -1,0 +1,103 @@
+{
+  "name": "鄱阳湖 (Poyang Lake)",
+  "ground": [
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "oooooooooooooobooooooooooooooooooooooooo",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww",
+    "wwwwwwwwwwwwwwbwwwwwwwwwwwwwwwwwwwwwwwww"
+  ],
+  "obstacle": [
+    "gggggggggggg.....ggggggggggggggggggggggg",
+    "g......................................g",
+    "g......................................g",
+    "g......................................g",
+    "g......................................g",
+    "g....r.................................g",
+    "g......................................g",
+    "g......................................g",
+    "g...............................v......g",
+    "g......................................g",
+    "g......................................g",
+    "g......................................g",
+    "g......................................g",
+    "g.......................................",
+    "g.......................................",
+    "g.......................................",
+    "g.......................................",
+    "g.......................................",
+    "g.......v..............................g",
+    "g......................................g",
+    "g......................................g",
+    "g......................................g",
+    "g........................r.............g",
+    "g......................................g",
+    "g......................................g",
+    "g......................................g",
+    "g......................................g",
+    "g......................................g",
+    "g......................................g",
+    "gggggggggggggggggggggggggggggggggggggggg"
+  ],
+  "connections": {
+    "east": {
+      "map_id": "jinhua",
+      "start_x": 1,
+      "start_y": 15
+    },
+    "north": {
+      "map_id": "suzhou",
+      "start_x": 14,
+      "start_y": 28
+    }
+  },
+  "npcs": [
+    {
+      "id": "hancheng",
+      "name": "大将韩成",
+      "sprite": "chang",
+      "x": 12,
+      "y": 16,
+      "dialogue": [
+        "主公！陈友谅巨舰遮天蔽日，我军形势危急！",
+        "末将与主公相貌相似，愿穿上主公金甲，代主公投江受死，以安军心！",
+        "主公当保重龙体，大明江山全系于主公一人！"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 30,
+      "y": 5,
+      "opened": false,
+      "item": "避水珠",
+      "dialogue": "你在湖边礁石缝中找到了传说中的【避水珠】！"
+    }
+  ],
+  "min_level": 12
+}

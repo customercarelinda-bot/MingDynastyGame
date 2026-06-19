@@ -1,0 +1,102 @@
+{
+  "name": "浙东 (Zhedong Hills)",
+  "ground": [
+    "ggggggfgggggsgrgggggsggggggggsgsggggggfg",
+    "ggfggggggggfggrggggggggggsggggggggggggsg",
+    "gggffgggggggggrghhgfgggggggggggggggsgggg",
+    "ggsgggggggggggrgggsfgggggghghghggggfhggg",
+    "gsffggggggggsgrggggggggggggggggfgghghfgg",
+    "ggggggghggsgggrggggghgfgggggsggggggfhggg",
+    "ggggggggggggggrgggggggggggggggggfggghggf",
+    "ggggggggggggggrggggfggggggggfgfggggggggg",
+    "ggggggfggggsggrggggggggggggsgghhfggggghg",
+    "ggggggfggfhgggrgsggggggggfhfgggggggggsgh",
+    "ggggshfgggsgggrgggfggggggggggggsgggggggg",
+    "ggggfgggggggfgrgggggggggggggggsggggggggg",
+    "ghggfhggggggsgrggggggggghfgggggggggggggf",
+    "fggghggggggfggrggggggggggggffgggggggfggg",
+    "ghgggggggggfggrgghgggggggggggggfgggsgghg",
+    "ffffffffffffffrfffffffffffffffffffffffff",
+    "hggsggggghggggrgghgggggfgffgggggsggggfgf",
+    "fhfgsggggggsggrgfggggggggfgfsggggggggghg",
+    "gfggggfgggggggrgggggggggggggggggsgggggsg",
+    "ggshggggggggggrggggggggggggfggggggggggfg",
+    "ggfhggggggggggrgsgffggggggfgfgggggggsggg",
+    "ffgfghggggghggrgggfggsgggfgfggggggghgggg",
+    "ggggggfggggfggrgggggggggggggggggggfgfggg",
+    "ggggggggggggggrgggggfgggfgggggggggsggggg",
+    "ggggggfgggggggrggsgfggggfhfgggggsgggsggg",
+    "gggggfsgggsgfgrgggggsfggggggghggsfgggggg",
+    "gghgghghgsggggrgfggggggggsggggsggsggggfg",
+    "gggfgsggggggggrghshhggggggggssgggggggggg",
+    "ggggggggsgsgggrggfgghgggggggggsggggggggg",
+    "gggsggggggghggrggsghggfggghggggssgggfggs"
+  ],
+  "obstacle": [
+    "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv",
+    "v................M...................F.v",
+    "v...F................v..............M..v",
+    "v...F......M.......M.....MT............v",
+    "v................T....MM...............v",
+    "v....M.................................v",
+    "v.......T.T................T...........v",
+    "v..M.F.................M....v..........v",
+    "vM...T..T.................T.....T......v",
+    "v....M..vT..........T............v.....v",
+    "v..........................T...........v",
+    "v..................M...................v",
+    "v...........T...T.........v.......v....v",
+    "......T.................v..v.T.....v...v",
+    "...v.................T.......T.........v",
+    ".......T..T.v......v................v.Mv",
+    ".....M.....T...........T......M.M.T..T.v",
+    "....................T.......F.........Tv",
+    "v...T...T...F......................v.M.v",
+    "v...M...Mv.......................v.....v",
+    "v...........................T......M...v",
+    "v.........T.M.....................M..M.v",
+    "v...v......T.............M..........T..v",
+    "v.........F...............TT...........v",
+    "v.....M..T......v...........MTTTT.F....v",
+    "v....MT.v........................v.....v",
+    "v...T......................T..........Tv",
+    "v.................M........FvT.........v",
+    "v..................T.........v.........v",
+    "vvvvvvvvvvvv.....vvvvvvvvvvvvvvvvvvvvvvv"
+  ],
+  "connections": {
+    "west": {
+      "map_id": "huizhou",
+      "start_x": 38,
+      "start_y": 15
+    },
+    "south": {
+      "map_id": "jinhua",
+      "start_x": 14,
+      "start_y": 1
+    }
+  },
+  "npcs": [
+    {
+      "id": "zhedong_girl",
+      "name": "浙东蚕妇",
+      "sprite": "farmer",
+      "x": 22,
+      "y": 12,
+      "dialogue": [
+        "战乱连连，只盼朱将军早日平定江南，让我们能安稳养蚕织布。",
+        "听说浙东名士刘基、宋濂都去应天辅佐您了，真是太好了！"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 8,
+      "y": 22,
+      "opened": false,
+      "item": "丝绸",
+      "dialogue": "你获得了【丝绸】！"
+    }
+  ],
+  "min_level": 10
+}

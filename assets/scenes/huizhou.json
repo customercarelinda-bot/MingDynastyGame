@@ -1,0 +1,102 @@
+{
+  "name": "徽州 (Huizhou Hills)",
+  "ground": [
+    "ggggggggggggggrggggggggfgggggfghgssgggfg",
+    "gshhggggggggggrggfggggggggghgfggggggghhg",
+    "ggggggggggggggrggfgggssgghgggggggfggfshg",
+    "ggggggggggggsgrgggfggggfgggfgffghggggggg",
+    "ggggggggsfghggrggfhgggghgggggggggghggggg",
+    "gggsggghggggfgrggggggggggfgggggggggggggg",
+    "gggggggshggghgrggggghggggggggfgggggggggg",
+    "gggsggggghgsggrggggggggggggsgggggfgfgghg",
+    "gggggggggggsggrgggggggggghgggggggggggggg",
+    "gsgggggghgghggrggggggggggshggggggghghggg",
+    "gggghgggggggggrgggggfgggggfgghffgsgggggg",
+    "ggggggggggggggrgggghggggggggggggggfgfggg",
+    "fggfggfgggggggrgggggsggggggggsgggggggggh",
+    "ggggggfgggsgggrggggghgghgfggssggfggggggg",
+    "hfgggggfggggfgrgggggggfgggggggfgfgshsggf",
+    "ssssssssssssssrsssssssssssssssssssssssss",
+    "ghggggggggggggrghgggggfggfsggggggffgffhg",
+    "gghgsgggsgghggrghggggggggggggggfhggggfgg",
+    "fgghggggggggggrgfgggggggggggggsgggggsghg",
+    "gggfgggggggsggrggfsgggggggggggggfgfgggsg",
+    "hggggggggggghgrggghgggggsgsgggfggggggsgg",
+    "sggfgggggghgggrgfsggggggggggggggggggghgg",
+    "gfgggsggggfgggrgggggggggggggggggggggggsg",
+    "ggggggggggggggrgghgggsgghhghgfgghsgfgggh",
+    "hgggggsgggggggrggggggfhggggggghghgggfsgg",
+    "ggggggggggggggrgggfgggggggffgggggggggggg",
+    "ghggggggggggggrgggfgggggfggsggfggggggggg",
+    "ggghgfggggggggrggghgghgggggfggfgggfggsfg",
+    "ggggggggggggggrggggfggsgggggggghgggggggg",
+    "ggfghggggfhgggrggggfgggggggggggghggggggg"
+  ],
+  "obstacle": [
+    "vvvvvvvvvvvv.....vvvvvvvvvvvvvvvvvvvvvvv",
+    "v................M.....MM............R.v",
+    "v......R.............R.........WM.....Wv",
+    "v.......R.......R...M.....R.JM.........v",
+    "vMWJ...................................v",
+    "v....R..R....................RM....W...v",
+    "v....R................W.J...........M.Jv",
+    "v.M.........................R..........v",
+    "v....................M.....W....W......v",
+    "v.........R......M.....................v",
+    "v...................WR......MM.........v",
+    "v..........M.......R..M................v",
+    "v..M....W...............MR.....R.....W.v",
+    "v.........................R...R.........",
+    "v.....W.............................R...",
+    "v.........M.........R...........M.......",
+    "v....................W..RR......M...W...",
+    "v.....MM.W.W.......M....................",
+    "v.......W.............W.....J...R......v",
+    "v.............................W......W.v",
+    "v..W........J.........J.R..........W...v",
+    "v....W.....M......J.........R..M.......v",
+    "v.........J..............R.............v",
+    "v..................M.......J..........Wv",
+    "v...................................R..v",
+    "v..............................R..R....v",
+    "v.W...W..J.............W...............v",
+    "v.M.......M..........M....J..M...R.....v",
+    "v........MR........J..W......R.........v",
+    "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+  ],
+  "connections": {
+    "north": {
+      "map_id": "yingtian",
+      "start_x": 14,
+      "start_y": 28
+    },
+    "east": {
+      "map_id": "zhedong",
+      "start_x": 1,
+      "start_y": 15
+    }
+  },
+  "npcs": [
+    {
+      "id": "zhusheng",
+      "name": "朱升",
+      "sprite": "elder",
+      "x": 18,
+      "y": 15,
+      "dialogue": [
+        "徽州山川险固，百姓淳朴。主公在此屯兵积粮，可保后路无忧。",
+        "天下大势，终将归于有德之人。"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 32,
+      "y": 5,
+      "opened": false,
+      "item": "徽州贡菊",
+      "dialogue": "你在徽派民居旁找到了【徽州贡菊】。"
+    }
+  ],
+  "min_level": 9
+}

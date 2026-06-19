@@ -1,0 +1,102 @@
+{
+  "name": "定远驴牌寨 (Dingyuan Lvpai Camp)",
+  "ground": [
+    "ggggggfghgggggvggfggghggfggggggggggfgggg",
+    "ggghggggghggggvgghgggggggggffgggggggfggg",
+    "ggsgggggggggggvgfhghgggggggggggggggggggg",
+    "ggggsghggsggggvggfgghhgggsfggghggghggggs",
+    "hggghgggggggggvggghgggfgggghfgsggggghfgg",
+    "ggggggsggfhgggvggggggggggggggggggggggggg",
+    "ggshfgfgssggggvggghgggfggsgggggggghggggg",
+    "ggfggggggggssgvgsgggffggfgghgggfsggggghg",
+    "gggggggsgggghgvgggggsggshgggggfgfhgghggg",
+    "ggggggfggfggggvghgggggggghgggggsghgggggg",
+    "gsggggggggggggvgggggggggfgggghgggggggggg",
+    "gsgggggfggfgggvgghgghsgggggfggfggfggsgsg",
+    "ggggggggggggggvggggggggffggggsfggggggggg",
+    "ggggggggggggggvgggggggsgggsggggfggfgfggs",
+    "ggggggggggggggvggggggggggggggggggggggggg",
+    "rrrrrrrrrrrrrrvrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "ggggggggggggggvggggggggggggggggggggggggg",
+    "gggggsggggggggvgggggggggggsfgggggggggsgh",
+    "gggggsgfggghggvgggggfggggggggggggggggggg",
+    "fgggggggggfghgvggffggghgggfgggfgfgffgfhg",
+    "gfggggggfsggggvggsgggggggggsgggggggggggg",
+    "fgggggsgfggsggvggggsgsgggggggsgggggggggg",
+    "ggggggsgggggggvggsgggsgggfggggggggsggggf",
+    "ggggggfghgggggvggggfgggggsggshgggggggggh",
+    "sgsggghhgffgggvgghghgsggfggggggsgggfgggg",
+    "gffgggggggggggvggfgggggghgsggggggggghggs",
+    "ggggffsggggffgvgfgfgggggfghgfggggggggggg",
+    "ggggggggggggggvggghggggggggggfggggggsggg",
+    "ggfgggggggfgggvgfgfgggghhgsghgggfghsfgsg",
+    "hfgghgffggggfgvggggggggghggggggsgggggggg"
+  ],
+  "obstacle": [
+    "FFFFFFFFFFFF.....FFFFFFFFFFFFFFFFFFFFFFF",
+    "F....................B..B...F..........F",
+    "F....U......F..........................F",
+    "FB........B..............U.............F",
+    "F................B....UX.F.............F",
+    "F....B.....................X.F.B.......F",
+    "FX..........U..........................F",
+    "F......................................F",
+    "F........U..........B...........U......F",
+    "FU.........F...........................F",
+    "F..X.......................B........F..F",
+    "F.................B.............F......F",
+    "F....X...................U.....U.......F",
+    "F...........F.....................F.....",
+    "F.......................................",
+    "F.......................................",
+    "F.......................................",
+    "F.....X.................................",
+    "F.......U...........U................F.F",
+    "F.......U.U.....F......................F",
+    "F.........................U....B.......F",
+    "F..................X..B................F",
+    "F................F.......B..B..........F",
+    "F.....................................BF",
+    "F...............F................UF...BF",
+    "F.........................U............F",
+    "F.......................X.U.......F....F",
+    "F.FX.............X....B.B......F....B..F",
+    "FU....XX...U.............U..F..........F",
+    "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+  ],
+  "connections": {
+    "north": {
+      "map_id": "miaoshan",
+      "start_x": 14,
+      "start_y": 28
+    },
+    "east": {
+      "map_id": "hezhou",
+      "start_x": 1,
+      "start_y": 15
+    }
+  },
+  "npcs": [
+    {
+      "id": "bandit_leader",
+      "name": "驴牌寨寨主",
+      "sprite": "chang",
+      "x": 25,
+      "y": 15,
+      "dialogue": [
+        "朱公子，俺们这寨里有三千好汉，如今愿意全部归顺红巾军！",
+        "愿随朱将军共图大业，推翻元廷！"
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "x": 32,
+      "y": 22,
+      "opened": false,
+      "item": "行军干粮",
+      "dialogue": "你在军用木桶旁找到了【行军干粮】！"
+    }
+  ],
+  "min_level": 5
+}
